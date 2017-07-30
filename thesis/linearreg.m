@@ -1,0 +1,12 @@
+data1=csvread('emgmyo_flexext4.csv');
+tbl1 = mat2dataset(data1);
+mdl1 = LinearModel.fit(tbl1)
+% data2=csvread('lrtrainulna.csv');
+% tbl2 = mat2dataset(data2);
+% mdl2 = LinearModel.fit(tbl2)
+% data3=csvread('emgmyo_prosup.csv');
+% tbl3 = mat2dataset(data3);
+% mdl3 = LinearModel.fit(tbl3)
+data4=csvread('emgmyo_openclose4.csv');
+tbl4 = mat2dataset(data4);
+mdl4 = LinearModel.fit(tbl4)

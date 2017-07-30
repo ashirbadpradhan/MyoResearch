@@ -1,0 +1,20 @@
+[status,cmdout]=system('python myoTargetGUI.py &','-echo');
+while(1)
+    try
+        lrbasicsmyofeaturesout
+        return
+    catch
+        try
+            lrbasicsmyofeaturesout
+            return
+        catch
+            try
+                lrbasicsmyofeaturesout
+                return
+            catch
+                disp('Darn')
+                break
+            end
+        end
+    end
+end    
